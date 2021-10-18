@@ -1,8 +1,8 @@
 # vite-webGL
 
-## Build Setup
+##  vite, three.js, ts, windy.css使ってモダンなwebGLのサイト作る．
 
-###vite, three.js, ts, windy.css使ってモダンなwebGLのサイト作る．
+## Build Setup
 
 ```bash
 # install dependencies
