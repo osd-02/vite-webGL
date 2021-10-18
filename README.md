@@ -2,6 +2,8 @@
 
 ## Build Setup
 
+###vite, three.js, ts, windy.css使ってモダンなwebGLのサイト作る．
+
 ```bash
 # install dependencies
 $ yarn install
