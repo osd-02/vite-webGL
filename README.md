@@ -1,6 +1,6 @@
 # vite-webGL
 
-##  vite, three.js, ts, windy.css使ってモダンなwebGLのサイト作る．
+##  vite, three.js, windy.css使ってモダンなwebGLのサイト作る．
 
 ## Build Setup
 
