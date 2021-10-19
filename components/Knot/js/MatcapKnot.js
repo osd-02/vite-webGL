@@ -7,7 +7,7 @@ export default class MatcapKnot {
 
   init() {
     // 箱を作成
-    this.geometry = new THREE.TorusKnotGeometry( 240, 50, 500, 60 );
+    this.geometry = new THREE.TorusKnotGeometry( 200, 30, 500, 60 );
     this.material = new THREE.MeshMatcapMaterial({color: 0xd9dbde});
     // this.material.matcap = "porcelainWhite"
     this.sphere = new THREE.Mesh(this.geometry, this.material);

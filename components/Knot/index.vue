@@ -1,5 +1,5 @@
 <template>
-  <section class="artwork">
+  <section class="artwork fixed">
     <canvas class="artwork__canvas" ref="canvas"></canvas>
   </section>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed bg-opacity-0 m-[10px] tracking-[5px]">
+  <div class="fixed bg-opacity-0 m-[10px] tracking-[5px] z-5">
     <h2 class="text-7xl font-bold underline"><nuxt-link to="/">three.js works</nuxt-link></h2>
     <ul class="m-[10px]">
       <li><nuxt-link to="/works/particles">#1 webGL-demo</nuxt-link></li>
