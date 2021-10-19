@@ -1,6 +1,6 @@
 <template>
   <div class="fixed bg-opacity-0 m-[10px] tracking-[5px]">
-    <h2 class="text-8xl font-bold">three.js works</h2>
+    <h2 class="text-7xl font-bold">three.js works</h2>
     <ul class="m-[10px]">
       <li>#1 webGL-demo</li>
       <li>#2 webGL-demo</li>

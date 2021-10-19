@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Artwork />
+    <Knot />
   </div>
 </template>
 
