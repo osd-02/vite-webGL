@@ -1,5 +1,8 @@
 import Demo from "./Demo"
 import Shape from "./Shape"
+import Floor from "./Floor"
+import MatcapKnot from "./MatcapKnot"
+import Particles from "./Particles"
 // three.jsの処理を書いていく
 export default class ArtworkGL{
   constructor(props){
@@ -9,8 +12,16 @@ export default class ArtworkGL{
 
   init(){
     Demo.init(this.props.$canvas);
-    this.shape = new Shape();
+    this.shape = new MatcapKnot();
+    // this.shape = new Shape();
+    // this.particles = new Particles();
+    // this.floor = new Floor();
+    window.addEventListener("resize", this.resize.bind(this));
     this.loop();
+  }
+
+  resize(){
+    Demo.resize();
   }
 
   loop() {
@@ -20,6 +31,8 @@ export default class ArtworkGL{
 
   render(){
     this.shape.update();
+    // this.particles.update();
+
     Demo.render();
   }
 }

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <Artwork />
+  <div class="fixed m-[10px] tracking-[5px] bottom-0 right-0">
+    ©︎2021- osd
   </div>
 </template>
 

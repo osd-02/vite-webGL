@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Artwork />
+    <Menu />
+    <nuxt />
+    <Footer />
   </div>
 </template>
 
